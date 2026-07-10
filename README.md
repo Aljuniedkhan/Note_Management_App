@@ -1,16 +1,127 @@
-# flutter_note_management_app
+# 📝 Notes Management App
 
-A new Flutter project.
+A simple **Flutter Notes Management Application** integrated with **Firebase Cloud Firestore**. This application allows users to create, view, update, and delete notes in real-time using Firebase.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- ✅ Create a new note
+- ✅ View all saved notes
+- ✅ Update existing notes
+- ✅ Delete notes
+- ✅ Delete confirmation dialog
+- ✅ Success SnackBar messages
+- ✅ Real-time synchronization with Firebase Cloud Firestore
+- ✅ Clean and user-friendly UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Technologies Used
+
+- Flutter
+- Dart
+- Firebase
+- Cloud Firestore
+- Material Design
+
+---
+
+## 📂 Project Structure
+
+```
+lib/
+│
+├── models/
+│   └── note_model.dart
+│
+├── services/
+│   └── firestore_service.dart
+│
+├── screens/
+│   ├── home_screen.dart
+│   └── add_edit_note_screen.dart
+│
+├── widgets/
+│   └── note_card.dart
+│
+├── firebase_options.dart
+└── main.dart
+```
+
+---
+
+## 🔥 Firebase Features
+
+- Firebase Project Integration
+- Cloud Firestore Database
+- Real-time Data Fetching
+- CRUD Operations
+
+---
+
+## 📸 App Functionalities
+
+### ➕ Create Note
+Users can add a new note by entering a title and description.
+
+### 📋 View Notes
+Displays all notes stored in Firebase Cloud Firestore.
+
+### ✏️ Update Note
+Users can edit any existing note.
+
+### 🗑️ Delete Note
+Users can delete notes with a confirmation dialog.
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Aljuniedkhan/Note_Management_App.git
+```
+
+### Open the project
+
+```bash
+cd Note_Management_App
+```
+
+### Install dependencies
+
+```bash
+flutter pub get
+```
+
+### Run the project
+
+```bash
+flutter run
+```
+
+---
+
+## 👨‍💻 Developed By
+
+**Mohammed Al Junied Khan**
+
+Department of Computer Science & Engineering
+
+International Islamic University Chittagong (IIUC)
+
+---
+
+## 📄 Assignment Information
+
+Course: Flutter Development
+
+Project: Notes Management App
+
+Database: Firebase Cloud Firestore
+
+---
+
+## ⭐ Thank You
