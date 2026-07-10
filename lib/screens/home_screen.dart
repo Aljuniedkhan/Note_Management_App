@@ -101,6 +101,7 @@ class HomeScreen extends StatelessWidget {
         },
       ),
       floatingActionButton: FloatingActionButton(
+        tooltip: "Add New Note",
         child: const Icon(Icons.add),
         onPressed: () async {
           final result = await Navigator.push(
